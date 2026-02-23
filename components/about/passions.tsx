@@ -3,6 +3,7 @@
 import { FadeIn, StaggerContainer, StaggerItem } from "@/components/motion-wrapper"
 import { Dumbbell, CircleDot, Code2, BookOpen, Rocket } from "lucide-react"
 
+
 const passions = [
   { name: "Gym & Fitness", icon: Dumbbell },
   { name: "Football", icon: CircleDot },

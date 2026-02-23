@@ -1,17 +1,21 @@
 "use client"
 
-import { Mail, MapPin, Github, Linkedin, Twitter } from "lucide-react"
+import { Mail, MapPin, Github, Linkedin, Twitter, Instagram, Youtube, Phone, PhoneCall, PhoneOutgoing } from "lucide-react"
 import { FadeIn } from "@/components/motion-wrapper"
 
 const contactDetails = [
   { icon: Mail, label: "Email", value: "rishu@example.com", href: "mailto:rishu@example.com" },
   { icon: MapPin, label: "Location", value: "Bettiah, Bihar, India", href: null },
-]
+  { icon: PhoneCall, label: "Phone", value: "9304561158 (MON-SAT, 12 AM–4 PM)", href: "tel:9304561158" },
+];
+
 
 const socialLinks = [
   { icon: Github, label: "GitHub", href: "https://github.com" },
   { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
   { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
+  { icon: Youtube, label: "Youtube", href: "https://youtube.com" },
 ]
 
 export function ContactInfo() {
