@@ -9,6 +9,20 @@ export function ContactForm() {
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
+
+    const formData = new FormData(e.currentTarget)
+    const name = formData.get("name")
+    const email = formData.get("email")
+    const subject = formData.get("subject")
+    const message = formData.get("message")
+
+    const mailtoLink = `mailto:rishu@royadma.dev?subject=${encodeURIComponent(
+      (subject as string) || "Contact Form Submission"
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`
+
+    window.location.href = mailtoLink
     setSubmitted(true)
   }
 
