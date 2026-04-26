@@ -11,11 +11,11 @@ const contactDetails = [
 
 
 const socialLinks = [
-  { icon: Github, label: "GitHub", href: "https://github.com" },
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com" },
-  { icon: Twitter, label: "Twitter", href: "https://twitter.com" },
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com" },
-  { icon: Youtube, label: "Youtube", href: "https://youtube.com" },
+  { icon: Github, label: "GitHub", href: "https://github.com/rishu074" },
+  { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/rishu-raj-56580b307/" },
+  { icon: Twitter, label: "Twitter", href: "https://x.com/royadma0" },
+  { icon: Instagram, label: "Instagram", href: "https://www.instagram.com/royadma0/" },
+  { icon: Youtube, label: "Youtube", href: "https://www.youtube.com/@Royadma" },
 ]
 
 export function ContactInfo() {
