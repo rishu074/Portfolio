@@ -4,9 +4,9 @@ import { Mail, MapPin, Github, Linkedin, Twitter, Instagram, Youtube, Phone, Pho
 import { FadeIn } from "@/components/motion-wrapper"
 
 const contactDetails = [
-  { icon: Mail, label: "Email", value: "rishu@example.com", href: "mailto:rishu@example.com" },
+  { icon: Mail, label: "Email", value: "rishu@royadma.dev", href: "mailto:rishu@royadma.dev" },
   { icon: MapPin, label: "Location", value: "Bettiah, Bihar, India", href: null },
-  { icon: PhoneCall, label: "Phone", value: "9304561158 (MON-SAT, 12 AM–4 PM)", href: "tel:9304561158" },
+  { icon: PhoneCall, label: "Phone", value: "9304561158 (MON-SAT, 12 PM–4 PM)", href: "tel:9304561158" },
 ];
 
 

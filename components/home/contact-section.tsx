@@ -37,11 +37,11 @@ export function ContactSection() {
                   <ArrowRight className="h-4 w-4" />
                 </Link>
                 <a
-                  href="mailto:rishu@example.com"
+                  href="mailto:rishu@royadma.dev"
                   className="inline-flex items-center gap-2 rounded-lg border border-border px-6 py-3 text-sm font-medium text-foreground transition hover:bg-card hover:text-accent"
                 >
                   <Mail className="h-4 w-4" />
-                  rishu@example.com
+                  rishu@royadma.dev
                 </a>
               </div>
             </div>
