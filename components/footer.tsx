@@ -71,8 +71,13 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 border-t border-border/50 pt-8 text-center text-sm text-muted-foreground">
+        <div className="mt-8 border-t border-border/50 pt-8 flex flex-col items-center justify-between gap-4 md:flex-row text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Rishu. All rights reserved.</p>
+          <div className="flex gap-4">
+            <Link href="/blog" className="transition-colors hover:text-accent">Blog</Link>
+            <Link href="/privacy-policy" className="transition-colors hover:text-accent">Privacy Policy</Link>
+            <Link href="/terms-of-service" className="transition-colors hover:text-accent">Terms of Service</Link>
+          </div>
         </div>
       </div>
     </footer>

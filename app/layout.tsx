@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next"
 import { Inter, Montserrat, Playfair_Display } from "next/font/google"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
+import Script from "next/script"
 
 import "./globals.css"
 
@@ -47,6 +48,12 @@ export default function RootLayout({
         <Header />
         <main>{children}</main>
         <Footer />
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_CLIENT_ID"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )

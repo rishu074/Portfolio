@@ -44,3 +44,33 @@
 html {
   scroll-behavior: smooth;
 }
+
+@layer utilities {
+  .blog-content h2 {
+    @apply text-3xl font-bold mt-10 mb-5 text-foreground font-heading;
+  }
+  .blog-content h3 {
+    @apply text-2xl font-semibold mt-8 mb-4 text-foreground font-heading;
+  }
+  .blog-content p {
+    @apply mt-5 mb-7 text-muted-foreground leading-relaxed text-lg;
+  }
+  .blog-content pre {
+    @apply bg-muted p-5 rounded-xl overflow-x-auto border border-border/50 my-8;
+  }
+  .blog-content code {
+    @apply text-accent font-mono text-sm bg-accent/10 px-1.5 py-0.5 rounded-md;
+  }
+  .blog-content pre code {
+    @apply bg-transparent px-0 py-0 text-muted-foreground;
+  }
+  .blog-content ul {
+    @apply list-disc list-inside text-muted-foreground mb-7 text-lg;
+  }
+  .blog-content li {
+    @apply mb-3;
+  }
+  .blog-content a {
+    @apply text-accent hover:text-accent/80 transition-colors underline underline-offset-4;
+  }
+}
