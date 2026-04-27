@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Github, Linkedin, Twitter, Mail } from "lucide-react"
+import { Github, Linkedin, Twitter, Mail, Instagram, Youtube } from "lucide-react"
 
 export function Footer() {
   return (
@@ -17,7 +17,7 @@ export function Footer() {
 
           <div className="flex items-center gap-5">
             <a
-              href="https://github.com"
+              href="https://github.com/rishu074"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-accent"
@@ -26,7 +26,7 @@ export function Footer() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/rishu-raj-56580b307/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-accent"
@@ -35,13 +35,31 @@ export function Footer() {
               <Linkedin className="h-5 w-5" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://x.com/royadma0"
               target="_blank"
               rel="noopener noreferrer"
               className="text-muted-foreground transition-colors hover:text-accent"
               aria-label="Twitter"
             >
               <Twitter className="h-5 w-5" />
+            </a>
+            <a
+              href="https://www.instagram.com/royadma0/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground transition-colors hover:text-accent"
+              aria-label="Instagram"
+            >
+              <Instagram className="h-5 w-5" />
+            </a>
+            <a
+              href="https://www.youtube.com/@Royadma"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground transition-colors hover:text-accent"
+              aria-label="Youtube"
+            >
+              <Youtube className="h-5 w-5" />
             </a>
             <a
               href="mailto:rishu@royadma.dev"
