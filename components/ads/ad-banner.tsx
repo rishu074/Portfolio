@@ -46,7 +46,7 @@ export function AdBanner({
       <ins
         className="adsbygoogle z-10 block"
         style={{ display: "block", width: "100%" }}
-        data-ad-client="ca-pub-YOUR_ADSENSE_CLIENT_ID" // Replace with your actual AdSense Client ID
+        data-ad-client="ca-pub-3935343761595003" // Your actual AdSense Client ID
         data-ad-slot={dataAdSlot}
         data-ad-format={dataAdFormat}
         data-full-width-responsive={dataFullWidthResponsive ? "true" : "false"}

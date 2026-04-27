@@ -70,7 +70,7 @@ export default async function BlogPostPage({ params }: Props) {
         </header>
 
         {/* Ad Space Before Content */}
-        <AdBanner dataAdSlot="YOUR_SLOT_ID_2" className="mb-10" />
+        <AdBanner dataAdSlot="8476973585" className="mb-10" />
 
         <div 
           className="blog-content w-full"
@@ -78,7 +78,7 @@ export default async function BlogPostPage({ params }: Props) {
         />
 
         {/* Ad Space After Content */}
-        <AdBanner dataAdSlot="YOUR_SLOT_ID_3" className="mt-16" />
+        <AdBanner dataAdSlot="4537728576" className="mt-16" />
       </div>
     </article>
   )

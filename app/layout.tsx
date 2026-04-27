@@ -50,7 +50,7 @@ export default function RootLayout({
         <Footer />
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_CLIENT_ID"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3935343761595003"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />
